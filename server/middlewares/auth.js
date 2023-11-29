@@ -5,16 +5,21 @@ const asyncErrorHandler = require('./asyncErrorHandler');
 
 exports.isAuthenticatedUser = asyncErrorHandler(async (req, res, next) => {
     const { token } = req.cookies;
-    console.log("2553")
-    console.log(token)
+    // console.log("2553")
+    // console.log(token)
     // res.send(token)
     if (!token) {
-        return next(new ErrorHandler("Please Login to Access", 401))
+        return next(new ErrorHandler("Please Login to Access", 400))
     }
 
-    const decodedData = jwt.verify(token, 'secret');
+    try {
+    const decodedData = jwt.verify(token, "secret");
     req.user = await User.findById(decodedData.id);
-    next(); 
+    next();
+  } catch (err) {
+    // Handle the error here. For example, you can redirect the user to the login page
+    res.redirect("/login");
+  } 
    
 
 });
