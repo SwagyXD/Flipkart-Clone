@@ -8,9 +8,9 @@ exports.isAuthenticatedUser = asyncErrorHandler(async (req, res, next) => {
     // console.log("2553")
     // console.log(token)
     // res.send(token)
-    if (!token) {
-        return next(new ErrorHandler("Please Login to Access", 400))
-    }
+    // if (!token) {
+    //     return next(new ErrorHandler("Please Login to Access", 400))
+    // }
 
     try {
     const decodedData = jwt.verify(token, "secret");
