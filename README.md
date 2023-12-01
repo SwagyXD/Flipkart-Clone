@@ -65,9 +65,6 @@ Mail Service: [Sendgrid](https://sendgrid.com/)
   </tr>
 </table>
 
- Sneak Peek of Admin Dashboard 🙈 :
-![Capture](https://user-images.githubusercontent.com/64949957/153995268-0cb769b9-e0ee-48ea-83c1-09b881df4101.PNG)
-
 <h2>📬 Contact</h2>
 
 If you want to contact me, you can reach me through below handles.
