@@ -24,10 +24,9 @@ Payment Gateway:
 
 ![paytm](https://img.shields.io/badge/Paytm-002970?style=for-the-badge&logo=paytm&logoColor=00BAF2)
 
-Deployed On:
+Deployed On ![Vercel] :
 
-![Vercel] 
- <img src="https://assets.vercel.com/image/upload/front/favicon/vercel/180x180.png" width="50" height="50">
+<img src="https://assets.vercel.com/image/upload/front/favicon/vercel/180x180.png" width="50" height="50">
 
 Image Management: [Cloudinary](https://cloudinary.com/)
 Mail Service: [Sendgrid](https://sendgrid.com/)
