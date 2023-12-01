@@ -26,7 +26,7 @@ Payment Gateway:
 
 Deployed On:
 
-![Vercel]([https://assets.vercel.com/image/upload/front/favicon/vercel/80x80.png](https://assets.vercel.com/image/upload/front/zeit/twitter-card.png))
+![Vercel] <img src="https://assets.vercel.com/image/upload/front/favicon/vercel/180x180.png" width="50" height="50">
 
 Image Management: [Cloudinary](https://cloudinary.com/)
 Mail Service: [Sendgrid](https://sendgrid.com/)
