@@ -1,4 +1,4 @@
-# Flipkart-Cone-MERN
+# Flipkart-Clone-MERN
 
 MERN-Stack Flipkart with Admin Dashboard with Razoor Payment & Paytm Payment Gateway.
 
