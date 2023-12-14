@@ -2,7 +2,7 @@
 
 MERN-Stack Flipkart with Admin Dashboard with Razoor Payment & Paytm Payment Gateway.
 
-[Live-here](flipkart-clone-client-three.vercel.app/) 🚀
+[Live-here](flipkart-clone-client-three.vercel.app) 🚀
 
 Frontend:
 
